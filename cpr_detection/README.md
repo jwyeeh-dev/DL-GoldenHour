@@ -13,6 +13,13 @@ Mediapipe is a Pose Detection Model developed by Google that captures 33 human j
 As stipulated by the International Cardiopulmonary Resuscitation Association, it is to guide the lower half of the breastbone as accurately as possible to ensure effective pressure is applied to cardiac arrest patients with cardiac arrest.
 
 
+### Test Python Example
+```python
+! git clone https://github.com/jwyeeh-dev/GoldenHour_DL/cpr_detection # cl
+
+```
+
+
 ## 🤲🏻 CPR Pose Recognition
 
 ### 1. The Pressing Time

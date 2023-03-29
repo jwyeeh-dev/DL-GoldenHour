@@ -66,5 +66,5 @@ This repository is the DL learning model that I was originally going to use and 
 
 ## How to test in Python
 
-- **[CPR AI Assistant](https://github.com/jwyeeh-dev/GoldenHour_DL/blob/main/cpr_detection/README.md)** 
-- **[Wound AI Assistant](https://github.com/jwyeeh-dev/GoldenHour_DL/blob/main/wound_detection/README.md)** 
+- **[CPR AI Assistant](https://github.com/jwyeeh-dev/GoldenHour_DL/blob/main/cpr_detection/)** 
+- **[Wound AI Assistant](https://github.com/jwyeeh-dev/GoldenHour_DL/blob/main/wound_detection/)** 
