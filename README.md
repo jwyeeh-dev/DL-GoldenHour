@@ -61,8 +61,8 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
 
 > This DL projects are not included in the Android Application.
 
-The original plan was to build tensorflow lite, but due to time constraints, we used ML kit.
-This repository is the DL learning model that I was originally going to use and the repository that I tested on tensorflow lite and Android. So if you want to see our application, please go Android repository.
+The original plan was to build own custom models, but due to time constraints, we used ML kit.
+This repository is the DL operations which I build own custom operations and we will add on our Application soon. So if you want to see our application, please go Android repository.
 
 ## How to test in Python
 

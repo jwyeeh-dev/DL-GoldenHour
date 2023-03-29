@@ -15,7 +15,7 @@ As stipulated by the International Cardiopulmonary Resuscitation Association, it
 
 ### Test Python Example
 ```python
-! git clone https://github.com/jwyeeh-dev/GoldenHour_DL/cpr_detection # cl
+! git clone https://github.com/jwyeeh-dev/GoldenHour_DL/cpr_detection # clone repository
 
 ```
 
