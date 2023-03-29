@@ -56,3 +56,15 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
 ## Project Structure
 <img width="755" alt="golden-hour structure" src="https://user-images.githubusercontent.com/64399505/228250494-3c6ecca2-e35f-4a83-99c9-5ad0ba452dc3.png">
 
+
+# Additional DL Function Notification
+
+> This DL projects are not included in the Android Application.
+
+The original plan was to build tensorflow lite, but due to time constraints, we used ML kit.
+This repository is the DL learning model that I was originally going to use and the repository that I tested on tensorflow lite and Android. So if you want to see our application, please go Android repository.
+
+## How to test in Python
+
+- **[CPR AI Assistant](https://github.com/jwyeeh-dev/GoldenHour_DL/blob/main/cpr_detection/README.md)** 
+- **[Wound AI Assistant](https://github.com/jwyeeh-dev/GoldenHour_DL/blob/main/wound_detection/README.md)** 
