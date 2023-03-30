@@ -10,12 +10,12 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
 > The first hour after the occurrence of a traumatic injury, considered the most critical for successful emergency treatment.
 
 ## Feature
-### Safety Guide
+### Safety Guides
 - It provides a slide webtoon format using images and text to show how to respond to emergencies we may encounter, such as CPR and airway obstruction. 
 - It provides CPR compression points using MLKit Pose Detection to assist in effective CPR.
 - It provides hemostasis points based on TFlite Object Detection to assist in hemostasis in case of bleeding.
 
-### Disaster first aid
+### Disaster behavior tips
 - Based on the disaster message, the slide webtoon format using images and text to provide actions that correspond to the current disaster situation.
 - Users can carefully check their pre-set emergency contacts and relief supplies through the checklist.
 
@@ -29,6 +29,9 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
 - Safety amenities provided include hospitals/emergency rooms, pharmacies, AEDs, fire extinguishers, shelters, and transitional housing.
 
 ## Demo Video
+
+<a href="유튜브 링크"><img width="755" src="https://user-images.githubusercontent.com/68090939/228529082-1306ec5d-6bff-4296-b5ba-8a3cc807b88c.png"/></a>
+
 
 ## Team Member
 <table algin="center">
@@ -57,7 +60,26 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
 <img width="755" alt="golden-hour structure" src="https://user-images.githubusercontent.com/64399505/228250494-3c6ecca2-e35f-4a83-99c9-5ad0ba452dc3.png">
 
 
-# Additional DL Function Notification
+## Detailed implementations using Google Technologies
+
+### DL
+- To provide the specific DL technology to the Android Application, we used several model and services from Google Technologies.
+
+- To train, provide the object detection and recognition model about the bleeding wounds of the patient, We used Google Tensorflow libraries, especially TFLite as a mobile library to deploy the model to the Android application.
+
+- To detect the precise body landmarks of the patient, we used the mediapipe pose detector from the ML Kit. 
+
+## Repositories
+<table algin="center">
+   <tr>
+      <td align="center"><a href="https://github.com/orgs/gdsc-seoultech/projects/3"><strong>Project</strong></a></td>
+      <td align="center"><a href="https://github.com/gdsc-seoultech/GoldenHour_Android"><strong>Android</strong></a></td>
+      <td align="center"><a href="https://github.com/gdsc-seoultech/GoldenHour_Backend"><strong>Back-End</strong></a></td>
+      <td align="center"><a href="https://github.com/jwyeeh-dev/GoldenHour_DL"><strong>DL</strong></a></td>
+   </tr>
+</table> 
+
+## 🤖 Additional DL Function Documentation 
 
 > This DL projects are not included in the Android Application.
 
