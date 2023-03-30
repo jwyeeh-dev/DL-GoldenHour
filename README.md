@@ -15,7 +15,7 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
 - It provides CPR compression points using MLKit Pose Detection to assist in effective CPR.
 - It provides hemostasis points based on TFlite Object Detection to assist in hemostasis in case of bleeding.
 
-### Disaster behavior tips
+### Disaster Behavior Tips
 - Based on the disaster message, the slide webtoon format using images and text to provide actions that correspond to the current disaster situation.
 - Users can carefully check their pre-set emergency contacts and relief supplies through the checklist.
 
@@ -67,7 +67,10 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
 
 - To train, provide the object detection and recognition model about the bleeding wounds of the patient, We used Google Tensorflow libraries, especially TFLite as a mobile library to deploy the model to the Android application.
 
-- To detect the precise body landmarks of the patient, we used the mediapipe pose detector from the ML Kit. 
+- To make lightweight the wounds detection and recognition model to put in Android App, We also amke the custom model based on MobileNet_V2 from Tensorflow Hub by Google. 
+
+- To detect the precise body landmarks of the patient, we used the mediapipe pose detector from the ML Kit. Mediapipe pose detector is inspired by the lightweighted BlazeFace model as a proxy for a person detector.
+- If you want to see more information, please see the Additional DL Documentation below.
 
 ## Repositories
 <table algin="center">
@@ -79,7 +82,7 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
    </tr>
 </table> 
 
-## 🤖 Additional DL Function Documentation 
+## 🤖 Additional DL Documentation 
 
 > This DL projects are not included in the Android Application.
 
