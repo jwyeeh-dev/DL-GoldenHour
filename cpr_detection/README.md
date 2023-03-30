@@ -15,7 +15,7 @@ And We determined that this model fits into the our solution which means that it
 
 <div align="center"> <img width="500" alt="Blazepose model structure" src="https://user-images.githubusercontent.com/99489807/228817430-9649f5cd-c853-4aea-a498-a8b9ad5113eb.png"> </div>
 
-<img width="500" alt="model accuracy" src="https://user-images.githubusercontent.com/99489807/228817783-da324aba-f623-40f9-be4e-50213fa58950.png">
+<div align="center"> <img width="500" alt="model accuracy" src="https://user-images.githubusercontent.com/99489807/228817783-da324aba-f623-40f9-be4e-50213fa58950.png"> </div>
 
 ## 🩻 CPR Pressing Point Detection
 
