@@ -43,6 +43,18 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
 
 ## Detailed implementations using Google technologies
 
+### DL
+
+- To provide the specific DL technology to the Android Application, we used several model and services from Google Technologies.
+
+- To train, provide the object detection and recognition model about the bleeding wounds of the patient, We used **Google Tensorflow libraries**, especially **TFLite** as a mobile library to deploy the model to the Android application.
+
+- To make lightweight the wounds detection and recognition model to put in Android App, We also amke the custom model based on **MobileNet_V2 from Tensorflow Hub by Google.** 
+
+- To detect the precise body landmarks of the patient, we used the **mediapipe pose detector from the ML Kit**. Mediapipe pose detector is inspired by **the lightweighted BlazeFace model** as a proxy for a person detector.
+
+- If you want to see more information, please see the Additional DL Documentation below.
+
 ### Android 
 
 - We made it possible for users **signed in with a Google account** to register, view, edit, and delete relief supplies and emergency contacts for disasters or emergencies.
@@ -61,17 +73,6 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
 
 - To store and serve the slide webtoon images for the first aid and safety guide, we needed to use a Cloud File service. 
 <br/>We used **Google Cloud Storage**, a managed service for storing unstructured data provided by GCP, **to serve the slide webtoon images with a public URL for each image**.
-
-### DL
-- To provide the specific DL technology to the Android Application, we used several model and services from Google Technologies.
-
-- To train, provide the object detection and recognition model about the bleeding wounds of the patient, We used **Google Tensorflow libraries**, especially **TFLite** as a mobile library to deploy the model to the Android application.
-
-- To make lightweight the wounds detection and recognition model to put in Android App, We also amke the custom model based on **MobileNet_V2 from Tensorflow Hub by Google.** 
-
-- To detect the precise body landmarks of the patient, we used the **mediapipe pose detector from the ML Kit**. Mediapipe pose detector is inspired by **the lightweighted BlazeFace model** as a proxy for a person detector.
-
-- If you want to see more information, please see the Additional DL Documentation below.
 
 ## Repositories
 <table algin="center">
