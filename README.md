@@ -70,6 +70,7 @@ To solve this problem, we created Golden Hour, an app that provides safety guide
 - To make lightweight the wounds detection and recognition model to put in Android App, We also amke the custom model based on MobileNet_V2 from Tensorflow Hub by Google. 
 
 - To detect the precise body landmarks of the patient, we used the mediapipe pose detector from the ML Kit. Mediapipe pose detector is inspired by the lightweighted BlazeFace model as a proxy for a person detector.
+
 - If you want to see more information, please see the Additional DL Documentation below.
 
 ## Repositories
