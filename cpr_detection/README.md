@@ -34,6 +34,8 @@ As stipulated by the Korea Cardiopulmonary Resuscitation Association, it is to g
 
 ## 🤲🏻 CPR Pose Recognition
 
+In CPR Process, To provide 
+
 ### 1. The Pressing Time
 
 
