@@ -36,7 +36,7 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
 
 ## Demo Video
 
-<a href="유튜브 링크"><img width="755" src="https://user-images.githubusercontent.com/68090939/228529082-1306ec5d-6bff-4296-b5ba-8a3cc807b88c.png"/></a>
+[![Thumbnail](https://user-images.githubusercontent.com/68090939/228529082-1306ec5d-6bff-4296-b5ba-8a3cc807b88c.png)](https://www.youtube.com/watch?v=Y5dD_Y7RQMM&ab_channel=GDSCSeoultech)
 
 ## Project Structure
 <img width="755" alt="golden-hour structure" src="https://user-images.githubusercontent.com/64399505/228250494-3c6ecca2-e35f-4a83-99c9-5ad0ba452dc3.png">
@@ -73,6 +73,28 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
 
 - To store and serve the slide webtoon images for the first aid and safety guide, we needed to use a Cloud File service. 
 <br/>We used **Google Cloud Storage**, a managed service for storing unstructured data provided by GCP, **to serve the slide webtoon images with a public URL for each image**.
+
+## Team Member
+<table algin="center">
+   <tr>
+      <td colspan="2" align="center"><strong>Android</strong></td>
+      <td colspan="1" align="center"><strong>BackEnd</strong></td>
+      <td colspan="1" align="center"><strong>DL</strong></td>
+   </tr>
+  <tr>
+     <td align="center">
+        <a href="https://github.com/100SongH"><img src="https://avatars.githubusercontent.com/u/88391162?v=4" width="150px" alt="백송희"/><br /><sub><b>백송희</b></sub></a>
+     </td>
+    <td align="center">
+    <a href="https://github.com/leeeha"><img src="https://avatars.githubusercontent.com/u/68090939?v=4" width="150px;" alt="이하은"/><br /><sub><b>이하은</b></sub></a><br />
+    </td>
+     <td align="center">
+        <a href="https://github.com/yuseogi0218"><img src="https://avatars.githubusercontent.com/u/64399505?v=4" width="150px" alt="이유석"/><br /><sub><b>이유석</b></sub></a>
+     </td>
+     <td align="center">
+        <a href="https://github.com/jwyeeh-dev"><img src="https://avatars.githubusercontent.com/u/99489807?v=4" width="150px" alt="황재영"/><br /><sub><b>황재영</b></sub></a>
+  <tr>
+</table> 
 
 ## Repositories
 <table algin="center">
