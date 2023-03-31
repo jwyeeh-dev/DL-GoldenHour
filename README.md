@@ -16,7 +16,7 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
 
 ## Feature
 
-### Safety Guide
+### First Aid Guide
 - It provides a slide webtoon format using images and text to show how to respond to emergencies we may encounter, such as CPR and airway obstruction. 
 - It provides CPR compression points using MLKit Pose Detection to assist in effective CPR.
 - It provides hemostasis points based on TFlite Object Detection to assist in hemostasis in case of bleeding.
@@ -36,7 +36,12 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
 
 ## Demo Video
 
+<<<<<<< HEAD
 [![Thumbnail](https://user-images.githubusercontent.com/68090939/228529082-1306ec5d-6bff-4296-b5ba-8a3cc807b88c.png)](https://www.youtube.com/watch?v=Y5dD_Y7RQMM&ab_channel=GDSCSeoultech)
+=======
+[<a href="유튜브 링크"><img width="755" src="https://user-images.githubusercontent.com/68090939/228529082-1306ec5d-6bff-4296-b5ba-8a3cc807b88c.png"/></a>](https://www.youtube.com/watch?v=Y5dD_Y7RQMM&ab_channel=GDSCSeoultech)
+
+>>>>>>> 4e939c3 (add youtube video link)
 
 ## Project Structure
 <img width="755" alt="golden-hour structure" src="https://user-images.githubusercontent.com/64399505/228250494-3c6ecca2-e35f-4a83-99c9-5ad0ba452dc3.png">
