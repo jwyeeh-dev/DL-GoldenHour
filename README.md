@@ -106,14 +106,4 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
    </tr>
 </table> 
 
-## 🤖 Additional DL Documentation 
 
-> This DL projects are not included in the Android Application.
-
-The original plan was to build own custom models, but due to time constraints, we used ML kit.
-This repository is the DL operations which I build own custom operations and we will add on our Application soon. So if you want to see our application, please go Android repository.
-
-## How to test in Python
-
-- **[CPR AI Assistant](https://github.com/jwyeeh-dev/GoldenHour_DL/blob/main/cpr_detection/)** 
-- **[Wound AI Assistant](https://github.com/jwyeeh-dev/GoldenHour_DL/blob/main/wound_detection/)** 
