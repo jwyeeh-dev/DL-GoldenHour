@@ -36,16 +36,7 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
 
 ## Demo Video
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 [![Thumbnail](https://user-images.githubusercontent.com/68090939/228529082-1306ec5d-6bff-4296-b5ba-8a3cc807b88c.png)](https://www.youtube.com/watch?v=Y5dD_Y7RQMM&ab_channel=GDSCSeoultech)
-=======
-[<a href="유튜브 링크"><img width="755" src="https://user-images.githubusercontent.com/68090939/228529082-1306ec5d-6bff-4296-b5ba-8a3cc807b88c.png"/></a>](https://www.youtube.com/watch?v=Y5dD_Y7RQMM&ab_channel=GDSCSeoultech)
-=======
-[![Thumbnail](https://user-images.githubusercontent.com/68090939/228529082-1306ec5d-6bff-4296-b5ba-8a3cc807b88c.png)](https://www.youtube.com/watch?v=Y5dD_Y7RQMM&ab_channel=GDSCSeoultech)
->>>>>>> 6b653d2 (add youtube link with thumbnails)
-
->>>>>>> 4e939c3 (add youtube video link)
 
 ## Project Structure
 <img width="755" alt="golden-hour structu ㅇre" src="https://user-images.githubusercontent.com/64399505/228250494-3c6ecca2-e35f-4a83-99c9-5ad0ba452dc3.png">
