@@ -1,18 +1,11 @@
-
-
-
-
-
-
-
 import cv2
 import mediapipe as mp
 import numpy as np
 import pandas as pd
 import time
 import math
-from pose_utils import find_xyz, calculate_angle3D, calculate_angle2D, calculate_angle, get_distance
-from cpr_finding_utils import find_pressing_point
+from utils.pose_utils import find_xyz, calculate_angle3D, calculate_angle2D, calculate_angle, get_distance
+from utils.cpr_finding_utils import find_pressing_point
 
 mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
