@@ -26,16 +26,16 @@ As stipulated by the Korea Cardiopulmonary Resuscitation Association, it is to g
 
 ## Getting Started
 ### Prerequisites
-Python 3.6+
-mediapipe 0.8.3.1+
-opencv-python 4.5.1.48+
-numpy 1.19.3+
+- Python 3.6+
+- mediapipe 0.8.3.1+
+- opencv-python 4.5.1.48+
+- numpy 1.19.3+
 
 ### Installation
 
 1. Clone the repository:
 ```css
-git clone https://github.com/your_username/CPR-detection.git
+git clone https://github.com/jwyeeh-dev/CPR-detection.git
 ```
 
 2. Install the required packages:
