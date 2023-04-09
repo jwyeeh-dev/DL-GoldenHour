@@ -44,12 +44,19 @@ pip install -r requirements.txt
 ```
 
 ### Usage
-1. Run **main.py** to start the application:
-```css
-python main.py
-```
+1. Run main file to start the application.
 
-2. The application will automatically access your camera and start detecting CPR performance. If you want to use a different camera, modify the parameter of cv2.VideoCapture() in main.py.
+    A. If you want to run cpr pose assistant, Run **cpr_main.py** to start the application:
+    ```css
+    python cpr_main.py
+    ```
+
+    B. If you want to run pressing point finder, Run **chest_point_main.py** to start the application:
+    ```css
+    python chest_point_main.py
+    ```
+
+2. The application will automatically access your camera and start detecting CPR performance. If you want to use a different camera, modify the parameter of cv2.VideoCapture() in **cpr_main.py** and **chest_point_main.py**.
 
 3. To exit the application, press Esc key.
 
