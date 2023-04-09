@@ -24,32 +24,35 @@ As stipulated by the Korea Cardiopulmonary Resuscitation Association, it is to g
 <div align="center"> <img width="300" alt="chest calculate image" src="https://user-images.githubusercontent.com/99489807/228807718-73d0fb4c-caa5-4660-8364-012a36e0877d.png"> </div>
 
 
-### Test Python Example
-```python
-!git clone https://github.com/jwyeeh-dev/GoldenHour_DL/cpr_detection # clone repository
+## Getting Started
+### Prerequisites
+Python 3.6+
+mediapipe 0.8.3.1+
+opencv-python 4.5.1.48+
+numpy 1.19.3+
 
-!python cpr_chest_detection.py --cam 0 #if you want to use the webcam
+### Installation
+
+1. Clone the repository:
+```css
+git clone https://github.com/your_username/CPR-detection.git
 ```
 
-
-## 🤲🏻 CPR Pose Recognition
-
-In CPR Process, To provide 
-
-### 1. The Pressing Time
-
-
-
-### 2. The Pressing Deep
-
-
-
-### 3. The Arm Angle
-
-
-### Test Python Example
-```python
-!git clone https://github.com/jwyeeh-dev/GoldenHour_DL/cpr_detection # clone repository
-
-!python cpr_pose_correction.py --cam 0 #if you want to use the webcam
+2. Install the required packages:
+```css
+pip install -r requirements.txt
 ```
+
+### Usage
+1. Run **main.py** to start the application:
+```css
+python main.py
+```
+
+2. The application will automatically access your camera and start detecting CPR performance. If you want to use a different camera, modify the parameter of cv2.VideoCapture() in main.py.
+
+3. To exit the application, press Esc key.
+
+### References
+1. MediaPipe Pose: https://google.github.io/mediapipe/solutions/pose
+2. "Cardiopulmonary resuscitation (CPR)" by American Heart Association: https://www.heart.org/en/health-topics/cardiac-arrest/cpr-and-aeds/cardiopulmonary-resuscitation-cpr
