@@ -75,7 +75,7 @@ To solve this problem, we created Golden Hour, an app that provides appropriate 
 <br/>We used **Google Cloud Storage**, a managed service for storing unstructured data provided by GCP, **to serve the slide webtoon images with a public URL for each image**.
 
 ## Team Member
-<table algin="center">
+<table align="center">
    <tr>
       <td colspan="2" align="center"><strong>Android</strong></td>
       <td colspan="1" align="center"><strong>BackEnd</strong></td>
