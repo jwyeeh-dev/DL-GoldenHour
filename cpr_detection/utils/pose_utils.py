@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 def find_xyz(ind_list, landmark):
     a = landmark[ind_list[0]]
@@ -87,6 +88,6 @@ def calculate_angle(a, b, c):
     return angle
 
 def get_distance(lm_from, lm_to):
-    x2 = (lm_from.x - lm_to.x)**2
-    y2 = (lm_from.y-lm_to.y)**2
-    return (x2+y2)**0.5
+    x2 = (lm_from.x - lm_to.x) ** 2
+    y2 = (lm_from.y-lm_to.y) ** 2
+    return (x2+y2) ** 0.5

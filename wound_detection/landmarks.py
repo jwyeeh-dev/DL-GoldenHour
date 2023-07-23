@@ -15,3 +15,4 @@ def detect(image, model):
     landmarks = results.pose_landmarks.landmark
 
     return landmarks
+
