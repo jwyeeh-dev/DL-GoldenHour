@@ -15,9 +15,30 @@ The Wound Segmentation Model based on YOLOv8 which is the greatest one layer det
 [The Wound Datasets](https://github.com/uwm-bigdata/wound-segmentation)
 <br>
 [The Segmentation]
+<br>
 
 
-## ⚙️ How to Use on Python
+## Getting Started
+### Prerequisites
+- Python 3.6+
+- mediapipe 0.8.3.1+
+- opencv-python 4.5.1.48+
+- numpy 1.19.3+
+
+### Installation
+
+1. Clone the repository:
+```css
+git clone https://github.com/jwyeeh-dev/CPR-detection.git
+```
+
+2. Install the required packages:
+```css
+pip install -r requirements.txt
+```
+
+
+### ⚙️ Usage on Python
 
 1. If you want to use by basic usage, then you write this commands and try it!
 
@@ -34,4 +55,8 @@ parser = add_arguments(
 )
 ```
 
+
+### References
+1. MediaPipe Pose: https://google.github.io/mediapipe/solutions/pose
+2. Pose2Seg : https://arxiv.org/abs/1803.10683
 
